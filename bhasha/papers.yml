@@ -1,0 +1,728 @@
+- id: BHASHA-09
+  authors:
+  - first_name: Shikhar
+    last_name: Dubey
+    institution: IIT Mandi, India
+    email: s24130@students.iitmandi.ac.in
+  - first_name: Krish
+    last_name: Mittal
+    institution: IIT Mandi, India
+    email: s24131@students.iitmandi.ac.in
+  - first_name: Sourava
+    middle_name: Kumar
+    last_name: Behera
+    institution: IIT Mandi, India
+    email: b22214@students.iitmandi.ac.in
+  - first_name: Manikandan
+    last_name: Ravikiran
+    institution: IIT Mandi, India
+    email: manikandan.r@thoughtworks.com
+  - first_name: Nitin
+    last_name: Kumar
+    institution: Shiv Nadar University, Delhi, India
+    email: nitin.kumar@snu.edu.in
+  - first_name: Saurabh
+    last_name: Shigwan
+    institution: Shiv Nadar University, Delhi, India
+    email: saurabh.shigwan@snu.edu.in
+  - first_name: Rohit
+    last_name: Saluja
+    institution: IIT Mandi, India
+    email: rohit@iitmandi.ac.in
+  attributes:
+    paper_type: long
+    presentation_type: oral
+    submitted_area: UNKNOWN
+  file: BHASHA-09.pdf
+  title: Multi-Feature Graph Convolution Network for Hindi OCR Verification
+  abstract: This paper presents a novel Graph Convolutional Network (GCN) based framework
+    for verifying OCR predictions on real Hindi document images, specifically addressing
+    the challenges of complex conjuncts and character segmentation. Our approach first
+    segments Hindi characters in real book images at different levels of granularity,
+    while also synthetically generating word images from OCR predictions. Both real
+    and synthetic images are processed through ResNet-50 to extract feature representations,
+    which are then segmented using multiple patching strategies (uniform, akshara,
+    random, and letter patches). The bounding boxes created using segmentation masks
+    are scaled proportionally to the feature space while extracting features for GCN.
+    We construct a line graph where each node represents a real-synthetic character
+    pair (in feature space). Each node of the line graph captures semantic and geometric
+    features including i) cross-entropy between original and synthetic features, ii)
+    Hu moments difference for shape properties, and iii) and pixel count difference
+    for size variation. The GCN with three convolutional layers (and ELU activation)
+    processes these graph-structured features to verify the correctness of OCR predictions.
+    Experimental evaluation on $1000$ images from diverse Hindi books demonstrates
+    the effectiveness of our graph-based verification approach in detecting OCR errors,
+    particularly for challenging conjunct characters where traditional methods struggle.
+  archival: true
+- id: BHASHA-01
+  authors:
+  - first_name: Soma
+    last_name: Paul
+    institution: IIIT Hyderabad, India
+    email: soma@iiit.ac.in
+  - first_name: Sukhada
+    last_name: Sukhada
+    institution: IIT BHU, Varanasi, India
+    email: sukhada.hss@iitbhu.ac.in
+  - first_name: Bidisha
+    last_name: Bhattacharjee
+    institution: IIIT Hyderabad, India
+    email: bidisha.bhattacharje@research.iiit.ac.in
+  - first_name: Kumari
+    last_name: Riya
+    institution: IIT BHU, Varanasi, India
+    email: kumaririya.jra.hss24@iitbhu.ac.in
+  - first_name: Sashank
+    last_name: Tatavolu
+    institution: IIIT Hyderabad, India
+    email: sashank.tatavolu@research.iiit.ac.in
+  - first_name: Kamesh
+    last_name: R
+    institution: SIST, Chennai, India
+    email: UNKNOWN
+  - first_name: Isma
+    last_name: Anwar
+    institution: IIIT Hyderabad, India
+    email: isma.anwar@research.iiit.ac.in
+  - first_name: Pratibha
+    last_name: Rani
+    institution: IIIT Hyderabad, India
+    email: UNKNOWN
+  attributes:
+    paper_type: long
+    presentation_type: oral
+    submitted_area: UNKNOWN
+  file: BHASHA-01.pdf
+  title: Indian Grammatical Tradition-Inspired Universal Semantic Representation Bank
+    (USR Bank 1.0)
+  abstract: In this paper, we introduce USR Bank 1.0, a multi-layered, text-level
+    semantic representation framework designed to capture not only the predicate-argument
+    structure of an utterance but also the speaker’s communicative intent as expressed
+    linguistically. Built on the Universal Semantic Grammar (USG), which is grounded
+    in Pāṇinian grammar and the Indian Grammatical Tradition (IGT), USR systematically
+    encodes semantic, morpho-syntactic, discourse, and pragmatic information across
+    distinct layers. In the USR generation process, initial USRs are automatically
+    generated using a dedicated USR-builder tool and subsequently validated via a
+    web-based interface (SAVI), ensuring high inter-annotator agreement and semantic
+    fidelity. Our evaluation on Hindi texts demonstrates robust dependency and discourse
+    annotation consistency and strong semantic similarity in USR-to-text generation.
+    By distributing semantic-pragmatic information across layers and capturing the
+    speaker’s perspective, USR provides a cognitively motivated, language-agnostic
+    framework with promising applications in multilingual natural language processing.
+  archival: true
+- id: BHASHA-02
+  authors:
+  - first_name: Dipto
+    last_name: Das
+    institution: University of Toronto, Canada
+    email: dipto.das@utoronto.ca
+  - first_name: Syed
+    middle_name: Ishtiaque
+    last_name: Ahmed
+    institution: University of Toronto, Canada
+    email: ishtiaque@cs.toronto.edu
+  - first_name: Shion
+    last_name: Guha
+    institution: University of Toronto, Canada
+    email: shion.guha@utoronto.ca
+  attributes:
+    paper_type: long
+    presentation_type: oral
+    submitted_area: UNKNOWN
+  file: BHASHA-02.pdf
+  title: 'Auditing Political Bias in Text Generation by GPT-4 using Sociocultural
+    and Demographic Personas: Case of Bengali Ethnolinguistic Communities'
+  abstract: Though large language models (LLMs) are increasingly used in multilingual
+    contexts, their political and sociocultural biases in low-resource languages remain
+    critically underexplored. In this paper, we investigate how LLM-generated texts
+    in Bengali shift in response to personas with varying political orientations (left
+    vs. right), religious identities (Hindu vs. Muslim), and national affiliations
+    (Bangladeshi vs. Indian). In a quasi-experimental study, we simulate these personas
+    and prompt an LLM to respond to political discussions. Measuring the shifts relative
+    to responses for a baseline Bengali persona, we examined how political orientation
+    influences LLM outputs, how topical association shape the political leanings of
+    outputs, and how demographic persona-induced changes align with differently politically
+    oriented variations. Our findings highlight left-leaning political bias in Bengali
+    text generation and its significant association with Muslim sociocultural and
+    demographic identity. We also connect our findings with broader discussions around
+    emancipatory politics, epistemological considerations, and alignment of multilingual
+    models.
+  archival: true
+- id: BHASHA-03
+  authors:
+  - first_name: Manikandan
+    last_name: Ravikiran
+    institution: IIT Mandi, India
+    email: erpd2301@students.iitmandi.ac.in
+  - first_name: Rohit
+    last_name: Saluja
+    institution: IIT Mandi, India
+    email: rohit@iitmandi.ac.in
+  - first_name: Arnav
+    last_name: Bhavsar
+    institution: IIT Mandi, India
+    email: arnav@iitmandi.ac.in
+  attributes:
+    paper_type: long
+    presentation_type: oral
+    submitted_area: UNKNOWN
+  file: BHASHA-03.pdf
+  title: 'INDRA: Iterative Difficulty Refinement Attention for MCQ Difficulty Estimation
+    for Indic Languages'
+  abstract: 'Estimating the difficulty of multiple-choice questions (MCQs) is central
+    to adaptive testing and learner modeling. We introduce \textbf{INDRA} (\underline{I}terative
+    \underline{D}ifficulty \underline{R}efinement \underline{A}ttention), a novel
+    attention mechanism that unifies psychometric priors with neural refinement for
+    Indic MCQ difficulty estimation. INDRA incorporates three key innovations: (i)
+    \emph{IRT-informed initialization}, which assigns token-level discrimination and
+    difficulty scores to embed psychometric interpretability; (ii) \emph{entropy-driven
+    iterative refinement}, which progressively sharpens attention to mimic the human
+    process of distractor elimination; and (iii) \emph{Indic Aware Graph Coupling},
+    which propagates plausibility across morphologically and semantically related
+    tokens, a critical feature for Indic languages. Experiments on \texttt{TEEMIL-H}
+    and \texttt{TEEMIL-K} datasets show that INDRA achieves consistent improvements,
+    with absolute gains of up to {+1.02 F1} and {+1.68 F1} over state-of-the-art,
+    while demonstrating through ablation studies that psychometric priors, entropy
+    refinement, and graph coupling contribute complementary gains to accuracy and
+    robustness.'
+  archival: true
+- id: BHASHA-06
+  authors:
+  - first_name: Anusha
+    last_name: Kamath
+    institution: NVidia, India
+    email: anushak@nvidia.com
+  - first_name: Kanishk
+    last_name: Singla
+    institution: NVidia, India
+    email: kanishks@nvidia.com
+  - first_name: Rakesh
+    last_name: Paul
+    institution: NVidia, India
+    email: rapaul@nvidia.com
+  - first_name: Raviraj
+    middle_name: Bhuminand
+    last_name: Joshi
+    institution: NVidia, India
+    email: ravirajj@nvidia.com
+  - first_name: Utkarsh
+    last_name: Vaidya
+    institution: NVidia, India
+    email: uvaidya@nvidia.com
+  - first_name: Sanjay
+    middle_name: Singh
+    last_name: Chauhan
+    institution: NVidia, India
+    email: schauhan@nvidia.com
+  - first_name: Niranjan
+    last_name: Wartikar
+    institution: NVidia, India
+    email: nwartikar@nvidia.com
+  attributes:
+    paper_type: long
+    presentation_type: oral
+    submitted_area: UNKNOWN
+  file: BHASHA-06.pdf
+  title: 'Benchmarking Hindi LLMs: A New Suite of Datasets and a Comparative Analysis'
+  abstract: 'Evaluating instruction-tuned Large Language Models (LLMs) in Hindi is
+    challenging due to a lack of high-quality benchmarks, as direct translation of
+    English datasets fails to capture crucial linguistic and cultural nuances. To
+    address this, we introduce a suite of five Hindi LLM evaluation datasets: IFEval-Hi,
+    MT-Bench-Hi, GSM8K-Hi, ChatRAG-Hi, and BFCL-Hi. These were created using a methodology
+    that combines from-scratch human annotation with a translate-and-verify process.
+    We leverage this suite to conduct an extensive benchmarking of open-source LLMs
+    supporting Hindi, providing a detailed comparative analysis of their current capabilities.
+    Our curation process also serves as a replicable methodology for developing benchmarks
+    in other low-resource languages.'
+  archival: true
+- id: BHASHA-07
+  authors:
+  - first_name: Rakesh
+    last_name: Paul
+    institution: NVidia, India
+    email: rapaul@nvidia.com
+  - first_name: Anusha
+    last_name: Kamath
+    institution: NVidia, India
+    email: anushak@nvidia.com
+  - first_name: Kanishk
+    last_name: Singla
+    institution: NVidia, India
+    email: kanishks@nvidia.com
+  - first_name: Raviraj
+    last_name: Joshi
+    institution: NVidia, India
+    email: ravirajj@nvidia.com
+  - first_name: Utkarsh
+    last_name: Vaidya
+    institution: NVidia, India
+    email: uvaidya@nvidia.com
+  - first_name: Sanjay
+    middle_name: Singh
+    last_name: Chauhan
+    institution: NVidia, India
+    email: schauhan@nvidia.com
+  - first_name: Niranjan
+    last_name: Wartikar
+    institution: NVidia, India
+    email: nwartikar@nvidia.com
+  attributes:
+    paper_type: long
+    presentation_type: oral
+    submitted_area: UNKNOWN
+  file: BHASHA-07.pdf
+  title: 'Aligning Large Language Models to Low-Resource Languages through LLM-Based
+    Selective Translation: A Systematic Study'
+  abstract: Multilingual large language models (LLMs) often demonstrate a performance
+    gap between English and non-English languages, particularly in low-resource settings.
+    Aligning these models to low-resource languages is essential yet challenging due
+    to limited high-quality data. While English alignment datasets are readily available,
+    curating equivalent data in other languages is expensive and time-consuming. A
+    common workaround is to translate existing English alignment data; however, standard
+    translation techniques often fail to preserve critical elements such as code,
+    mathematical expressions, and structured formats like JSON. In this work, we investigate
+    LLM-based selective translation, a technique that selectively translates only
+    the translatable parts of a text while preserving non-translatable content and
+    sentence structure. We conduct a systematic study to explore key questions around
+    this approach, including its effectiveness compared to vanilla translation, the
+    importance of filtering noisy outputs, and the benefits of mixing translated samples
+    with original English data during alignment. Our experiments focus on the low-resource
+    Indic language Hindi and compare translations generated by Google Cloud Platform
+    (GCP) and Llama-3.1-405B. The results highlight the promise of selective translation
+    as a practical and effective method for improving multilingual alignment in LLMs.
+  archival: true
+- id: BHASHA-08
+  authors:
+  - first_name: Yuzuki
+    last_name: Tsukagoshi
+    institution: University of Tokyo, Japan
+    email: yuzuki@l.u-tokyo.ac.jp
+  - first_name: Ikki
+    last_name: Ohmukai
+    institution: University of Tokyo, Japan
+    email: UNKNOWN
+  attributes:
+    paper_type: long
+    presentation_type: oral
+    submitted_area: UNKNOWN
+  file: BHASHA-08.pdf
+  title: Automatic Accent Restoration in Vedic Sanskrit with Neural Language Models
+  abstract: 'Vedic Sanskrit, the oldest attested form of Sanskrit, employs a distinctive
+    pitch‐accent system that marks one syllable per word. This work presents the first
+    application of large language models to the automatic restoration of accent marks
+    in transliterated Vedic Sanskrit texts. A comprehensive corpus was assembled by
+    extracting major Vedic works from the TITUS project and constructing paired samples
+    of unaccented input and correctly accented references, yielding more than 100,000
+    training examples. Three generative LLMs were fine‐tuned on this corpus: a LoRA‐adapted
+    Llama 3.1 8B Instruct model, OpenAI GPT‑4.1 nano, and Google Gemini 2.5 Flash.
+    These models were trained in a sequence‑to‑sequence fashion to insert accent marks
+    at appropriate positions. Evaluation on roughly 2,000 sentences using precision,
+    recall, F1, character error rate, word error rate, and ChrF1 metrics shows that
+    fine‑tuned models substantially outperform their untuned baselines. The LoRA‐tuned
+    Llama achieves the highest F1, followed by Gemini 2.5 Flash and GPT‑4.1 nano.
+    Error analysis reveals that the models learn to infer accents from grammatical
+    and phonological context. These results demonstrate that LLMs can capture complex
+    accentual patterns and recover lost information, opening possibilities for improved
+    sandhi splitting, morphological analysis, syntactic parsing and machine translation
+    in Vedic NLP pipelines.'
+  archival: true
+- id: BHASHA-10
+  authors:
+  - first_name: Vriti
+    last_name: Sharma
+    institution: IIT Mandi, India
+    email: t24156@students.iitmandi.ac.in
+  - first_name: Rajat
+    last_name: Verma
+    institution: IIT Mandi, India
+    email: UNKNOWN
+  - first_name: Rohit
+    last_name: Saluja
+    institution: IIT Mandi, India
+    email: rohit@iitmandi.ac.in
+  attributes:
+    paper_type: long
+    presentation_type: oral
+    submitted_area: UNKNOWN
+  file: BHASHA-10.pdf
+  title: 'AnciDev: A Dataset for High-Accuracy Handwritten Text Recognition of Ancient
+    Devanagari Manuscripts'
+  abstract: The digital preservation and accessibility of historical documents require
+    accurate and scalable Handwritten Text Recognition (HTR). However, progress in
+    this field is significantly hampered for low-resource scripts, such as ancient
+    forms of the scripts used in historical manuscripts, due to the scarcity of high-quality,
+    transcribed training data. We address this critical gap by introducing the \textbf{AnciDev}
+    Dataset, a novel, publicly available resource comprising 3,000 transcribed text
+    lines sourced from 500 pages of different ancient Devanagari manuscripts. To validate
+    the utility of this new resource, we systematically evaluate and fine-tune several
+    HTR models on the \textbf{AnciDev} Dataset. Our experiments demonstrate a significant
+    performance uplift across all fine-tuned models, with the best-performing architecture
+    achieving a substantial reduction in Character Error Rate (CER), confirming the
+    dataset's efficacy in addressing the unique complexities of ancient handwriting.
+    This work not only provides a crucial, well-curated dataset to the research community
+    but also sets a new, reproducible state-of-the-art for the HTR of historical Devanagari,
+    advancing the effort to digitally preserve India's documentary heritage.
+  archival: true
+- id: BHASHA-11
+  authors:
+  - first_name: Hrishikesh
+    last_name: Terdalkar
+    institution: BITS Pilani, Hyderabad Campus, India
+    email: hrishikesh.rt@hyderabad.bits-pilani.ac.in
+  - first_name: Kirtan
+    last_name: Bhojani
+    institution: BITS Pilani, Hyderabad Campus, India
+    email: f20230366@hyderabad.bits-pilani.ac.in
+  - first_name: Aryan
+    last_name: Dongare
+    institution: BITS Pilani, Hyderabad Campus, India
+    email: f20230194@hyderabad.bits-pilani.ac.in
+  - first_name: Omm
+    middle_name: Aditya
+    last_name: Behera
+    institution: BITS Pilani, Hyderabad Campus, India
+    email: f20230434@hyderabad.bits-pilani.ac.in
+  attributes:
+    paper_type: long
+    presentation_type: poster
+    submitted_area: UNKNOWN
+  file: BHASHA-11.pdf
+  title: 'BHRAM-IL: A Benchmark for Hallucination Recognition and Assessment in Multiple
+    Indian Languages'
+  abstract: Large language models (LLMs) are increasingly deployed in multilingual
+    applications but often generate plausible yet incorrect or misleading outputs,
+    known as hallucinations. While hallucination detection has been studied extensively
+    in English, under-resourced Indian languages remain largely unexplored. We present
+    BHRAM-IL, a benchmark for hallucination recognition and assessment in multiple
+    Indian languages, covering Hindi, Gujarati, Marathi, Odia, along with English.
+    The benchmark comprises 36,047 curated questions across nine categories spanning
+    factual, numerical, reasoning, and linguistic tasks. We evaluate 14 state-of-the-art
+    multilingual LLMs on a benchmark subset of 10,265 questions, analyzing cross-lingual
+    and factual hallucinations across languages, models, scales, categories, and domains
+    using category-specific metrics normalized to (0,1) range. Aggregation over all
+    categories and models yields a primary score of 0.23 and a language-corrected
+    fuzzy score of 0.385, demonstrating the usefulness of BHRAM-IL for hallucination-focused
+    evaluation. The dataset, and the code for generation and evaluation are available
+    on GitHub (https://github.com/sambhashana/BHRAM-IL/) and HuggingFace (https://huggingface.co/datasets/sambhashana/BHRAM-IL/)
+    to support future research in multilingual hallucination detection and mitigation.
+  archival: true
+- id: BHASHA-04
+  authors:
+  - first_name: Murali
+    last_name: Emani
+    institution: Argonne National Lab, USA
+    email: memani@anl.gov
+  - first_name: Kashyap
+    middle_name: Manjusha
+    last_name: R
+    institution: UIUC, USA
+    email: kr58@illinois.edu
+  attributes:
+    paper_type: long
+    presentation_type: poster
+    submitted_area: UNKNOWN
+  file: BHASHA-04.pdf
+  title: 'Mātṛkā: Multilingual Jailbreak Evaluation of Open-Source Large Language
+    Models'
+  abstract: Artificial Intelligence (AI) and Large Language Models (LLMs) are increasingly
+    integrated into high-stakes applications, yet their susceptibility to adversarial
+    prompts poses significant security risks. In this work, we introduce Mātṛkā, a
+    framework for systematically evaluating jailbreak vulnerabilities in open-source
+    multilingual LLMs. Using the open-source dataset across nine sensitive categories,
+    we constructed adversarial prompt sets that combine translation, mixed-language
+    encoding, homoglyph signatures, numeric enforcement, and structural variations.
+    Experiments were conducted on state-of-the-art open-source models from Llama,
+    Qwen, GPT-OSS, Mistral, and Gemma families. Our findings highlight transferability
+    of jailbreaks across multiple languages with varying success rates depending on
+    attack design. We provide empirical insights, a novel taxonomy of multilingual
+    jailbreak strategies, and recommendations for enhancing robustness in safety-critical
+    environments.
+  archival: true
+- id: BHASHA-05
+  authors:
+  - first_name: Akhil
+    middle_name: Rajeev
+    last_name: P
+    institution: CDAC, Bangalore, India
+    email: akhilrajeev@cdac.in
+  - first_name: Annarao
+    last_name: Kulkarni
+    institution: CDAC, Bangalore, India
+    email: kulkarni@cdac.in
+  attributes:
+    paper_type: long
+    presentation_type: poster
+    submitted_area: UNKNOWN
+  file: BHASHA-05.pdf
+  title: Accent Placement Models for Rigvedic Sanskrit Text
+  abstract: 'The Rigveda, among the oldest Indian texts in Vedic Sanskrit, employs
+    a distinctive pitchaccent system - udatta, anudatta, svarita whose marks encode
+    melodic and interpretive cues but are often absent from moderne-texts. This work
+    develops a parallel corpus of accented-unaccented ´slokas and conducts a controlled
+    comparison of three strategies for automatic accent placement in Rigvedic verse:
+    (i) full fine-tuning of ByT5, a byte-level Transformer that operates directly
+    on Unicode combining marks, (ii) a from-scratch BiLSTM-CRF sequence-labeling baseline,
+    and (iii) LoRA-based parameter-efficient fine-tuning atop ByT5. Evaluation uses
+    Word Error Rate (WER) and Character Error Rate (CER) for orthographic fidelity,
+    plus a task-specific Diacritic Error Rate (DER) that isolates accent edits. Full
+    ByT5 fine-tuning attains the lowest error across all metrics; LoRA offers strong
+    efficiencyaccuracy trade-offs, and BiLSTM-CRF serves as a transparent baseline.
+    The study underscores practical requirements for accent restoration - Unicode-safe
+    preprocessing, mark-aware tokenization, and evaluation that separates grapheme
+    from accent errors - and positions heritage-language technology as an emerging
+    NLP area connecting computational modeling with philological and pedagogical aims.
+    Results establish reproducible baselines for Rigvedic accent restoration and provide
+    guidance for downstream tasks such as accentaware OCR, ASR/chant synthesis, and
+    digital scholarship.'
+  archival: true
+- id: BHASHA-00
+  authors:
+  - first_name: Pramit
+    last_name: Bhattacharyya
+    institution: IIT Kanpur, India
+    email: pramitb@cse.iitk.ac.in
+  - first_name: Karthika
+    last_name: N J
+    institution: IIT Bombay, India
+    email: karthika@cse.iitb.ac.in
+  - first_name: Hrishikesh
+    last_name: Terdalkar
+    institution: BITS Pilani, Hyderabad Campus, India
+    email: hrishikesh.rt@hyderabad.bits-pilani.ac.in
+  - first_name: Manoj Balaji
+    last_name: Jagadeeshan
+    institution: IIT Kharagpur, India
+    email: manojbalaji1@gmail.com
+  - first_name: Shubham
+    middle_name: Kumar
+    last_name: Nigam
+    institution: IIT Kanpur, India
+    email: shubhamkumarnigam@gmail.com
+  - first_name: Arvapalli
+    middle_name: Sai
+    last_name: Susmitha
+    institution: IIT Kanpur, India
+    email: arvapallisaisusmitha@gmail.com
+  - first_name: Arnab
+    last_name: Bhattacharya
+    institution: IIT Kanpur, India
+    email: arnabb@cse.iitk.ac.in
+  attributes:
+    paper_type: long
+    presentation_type: oral
+    submitted_area: UNKNOWN
+  file: BHASHA-00.pdf
+  title: Findings of the IndicGEC and IndicWG Shared Task at BHASHA 2025
+  abstract: 'This overview paper presents the findings of the two shared tasks organized as part of the 1st Workshop on
+    Benchmarks, Harmonization, Annotation, and Standardization for Human-Centric AI in Indian Languages (BHASHA)
+    co-located with IJCNLP-AACL 2025. The shared tasks are:
+    (1) Indic Grammar Error Correction (IndicGEC) and (2) Indic Word Grouping (IndicWG).
+    For GEC, participants were tasked with producing grammatically correct
+    sentences based on given input sentences in five Indian languages.
+    For WG, participants were required to generate a word-grouped variant
+    of a provided sentence in Hindi. The evaluation metric used for GEC was
+    GLEU, while Exact Matching was employed for WG. 
+    A total of 14 teams participated in the final phase of the Shared Task 1;
+    2 teams participated in the final phase of Shared Task 2.
+    The maximum GLEU scores obtained for Hindi, Bangla, Telugu, Tamil and Malayalam languages are
+    respectively 85.69, 95.79, 88.17, 91.57 and 96.02 for the IndicGEC shared task.
+    The highest exact matching score obtained for IndicWG shared task is 45.13%.'
+  archival: true
+- id: BHASHA-12
+  authors:
+  - first_name: Rucha
+    last_name: Ambaliya
+    institution: VNSGU, India
+    email: rucha.ambaliya@gmail.com
+  - first_name: Mahika
+    last_name: Dugar
+    institution: VNSGU, India
+    email: justmahikadugar@gmail.com
+  - first_name: Pruthwik
+    last_name: Mishra
+    institution: SVNIT, India
+    email: pruthwikmishra@aid.svnit.ac.in
+  attributes:
+    paper_type: long
+    presentation_type: poster
+    submitted_area: UNKNOWN
+  file: BHASHA-12.pdf
+  title: 'Niyamika at BHASHA Task 1: Word-Level Transliteration for English-Hindi
+    Mixed Text in Grammar Correction Using MT5'
+  abstract: 'Grammar correction for Indian languages poses significant challenges
+    due to complex morphology, non-standard spellings, and frequent script variations.
+    In this work, we address grammar correction for English-mixed sentences in five
+    Indic languages—Hindi, Bengali, Malayalam, Tamil, and Telugu—as part of the IndicGEC
+    2025 Bhasha Workshop. Our approach first applies word-level transliteration using
+    IndicTrans (Bhat et al., 2014) to normalize Romanized and mixed-script tokens,
+    followed by grammar correction using the mT5-small model (Xue et al., 2021). Although
+    our experiments focus on these five languages, the methodology is generalizable
+    to other Indian languages. Our implementation and code are publicly available
+    at: https://github.com/Rucha-Ambaliya/bhasha-workshop'
+  archival: true
+- id: BHASHA-13
+  authors:
+  - first_name: Manav
+    last_name: Dhamecha
+    institution: SVNIT, India
+    email: u24ai034@aid.svnit.ac.in
+  - first_name: Sunil
+    last_name: Jaat
+    institution: SVNIT, India
+    email: u24ai026@aid.svnit.ac.in
+  - first_name: Gaurav
+    last_name: Damor
+    institution: SVNIT, India
+    email: u24ai063@aid.svnit.ac.in
+  - first_name: Pruthwik
+    last_name: Mishra
+    institution: SVNIT, India
+    email: pruthwikmishra@aid.svnit.ac.in
+  attributes:
+    paper_type: long
+    presentation_type: poster
+    submitted_area: UNKNOWN
+  file: BHASHA-13.pdf
+  title: 'Team Horizon at BHASHA Task 1: Multilingual IndicGEC with Transformer-based
+    Grammatical Error Correction Models'
+  abstract: 'This paper presents Team Horizon’s approach to the BHASHA Shared Task
+    1: Indic Grammatical Error Correction (IndicGEC). We explore transformer-based
+    multilingual models — mT5-small and IndicBART — to correct grammatical and semantic
+    errors across five Indian languages: Bangla, Hindi, Tamil, Telugu, and Malayalam.
+    Due to limited annotated data, we developed a synthetic data augmentation pipeline
+    that introduces realistic linguistic errors under ten categories, simulating natural
+    mistakes found in Indic scripts. Our fine-tuned models achieved competitive performance
+    with GLEU scores of 86.03 (Tamil), 72.00 (Telugu), 82.69 (Bangla), 80.44 (Hindi),
+    and 84.36 (Malayalam). We analyze the impact of dataset scaling, multilingual
+    fine-tuning, and training epochs, showing that linguistically grounded augmentation
+    can significantly improve grammatical correction accuracy in low-resource Indic
+    languages.'
+  archival: true
+- id: BHASHA-15
+  authors:
+  - first_name: Saumitra
+    last_name: Yadav
+    institution: IIIT Hyderabad, India
+    email: saumitra.yadav@research.iiit.ac.in
+  - first_name: Manish
+    last_name: Shrivastava
+    institution: IIIT Hyderabad, India
+    email: m.shrivastava@iiit.ac.in
+  attributes:
+    paper_type: long
+    presentation_type: poster
+    submitted_area: UNKNOWN
+  file: BHASHA-15.pdf
+  title: 'A3-108 at BHASHA Task1: Asymmetric BPE configuration for Grammar Error Correction'
+  abstract: 'This paper presents our approach to Grammatical Error Correction (GEC)
+    for five low-resource Indic languages, a task severely limited by a scarcity of
+    annotated data. Our core methodology involves two stages: synthetic data generation
+    and model optimization. First, we leverage the provided training data to build
+    a Statistical Machine Translation (SMT) system, which is then used to generate
+    large-scale synthetic noisy-to-clean parallel data from available monolingual
+    text. This artificially corrupted data significantly enhances model robustness.
+    Second, we train Transformer-based sequence-to-sequence models using an asymmetric
+    and symmetric Byte Pair Encoding (BPE) configuration, where the number of merge
+    operations differs between the source (erroneous) and target (corrected) sides
+    to better capture language-specific characteristics. For instance, source BPE
+    sizes 4000, 8000 and 16000, with target sizes at 500, 1000, 2000, 3000 and 4000.
+    Our experiments demonstrated competitive performance across all five languages,
+    with the best results achieving a GLUE score of 94.16 for Malayalam (Rank 4th)
+    followed by Bangla at 92.44 (ranked 5th), Tamil at 85.52 (ranked 5th), Telugu
+    at 81.9 (7th), and Hindi at 79.45(10th) in the shared task. These findings substantiate
+    the effectiveness of combining SMT-based synthetic data generation with asymmetric
+    BPE configurations for low-resource GEC.'
+  archival: true
+- id: BHASHA-16
+  authors:
+  - first_name: Akshay
+    last_name: Ramesh
+    institution: VIT, Chennai, India
+    email: UNKNOWN
+  - first_name: Ratnavel
+    last_name: Rajalakshmi
+    institution: VIT, Chennai, India
+    email: rajalakshmi.r@vit.ac.in
+  attributes:
+    paper_type: long
+    presentation_type: poster
+    submitted_area: UNKNOWN
+  file: BHASHA-16.pdf
+  title: 'DLRG at BHASHA: Task 1 (IndicGEC): A Hybrid Neurosymbolic Approach for Tamil
+    and Malayalam Grammatical Error Correction'
+  abstract: Grammatical Error Correction (GEC) for low-resource Indic languages remains
+    challenging due to limited annotated data and morphological complexity. We present
+    a hybrid neurosymbolic GEC system that combines neural sequence-to-sequence models
+    with explicit language-specific rule-based pattern matching. Our approach leverages
+    parameter-efficient LoRA adaptation on aggressively augmented data to fine-tune
+    pre-trained mT5 models, followed by learned correction rules through intelligent
+    ensemble strategies. The proposed hybrid architecture achieved 85.34% GLEU for
+    Tamil (Rank 8) and 95.06% GLEU for Malayalam (Rank 2) on the provided IndicGEC
+    test sets, outperforming individual neural and rule-based approaches. The system
+    incorporates conservative safety mechanisms to prevent catastrophic deletions
+    and over-corrections, thus ensuring robustness and real-world applicability. Our
+    work demonstrates that extremely low-resource GEC can be effectively addressed
+    by combining neural generalization with symbolic precision.
+  archival: true
+- id: BHASHA-17
+  authors:
+  - first_name: Akhil
+    middle_name: Rajeev
+    last_name: P
+    institution: CDAC, Bangalore, India
+    email: akhilrajeev@cdac.in
+  attributes:
+    paper_type: long
+    presentation_type: poster
+    submitted_area: UNKNOWN
+  file: BHASHA-17.pdf
+  title: 'akhilrajeevp at BHASHA Task 1: Minimal-Edit Instruction Tuning for Low-Resource
+    Indic GEC'
+  abstract: Grammatical error correction for Indic languages faces limited supervision,
+    diverse scripts, and rich morphology. We propose an augmentation-free setup that
+    uses instructiontuned large language models and conservative decoding. A 12B GEMMA
+    3 model is instruction-tuned in bnb 4 bit precision with Parameter efficient Finetuning
+    and Alpaca-style formatting. Decoding follows a deterministic, constraint-aware
+    procedure with a lightweight normaliser that encourages minimal, meaningpreserving
+    edits. We operationalise inference, subsequent to instruction fine-tuning (IFT),
+    via a fixed, language-specific prompt directly synthesised from a deterministic
+    error classifier’s taxonomy, label distributions, and precedence ordering computed
+    on the training corpus. Under the official untuned GLEU evaluation, the system
+    scores 92.41 on Malayalam, sixth overall, and 81.44 on Hindi, third overall. These
+    results indicate that classifier-informed prompt design, adapter-based instruction
+    tuning, and deterministic decoding provide a reproducible and computationally
+    efficient alternative to augmentation-centred pipelines for Indic GEC. The approach
+    also motivates future work on stronger morphosyntactic constraints and human centered
+    evaluation of conservative edits.
+  archival: true
+- id: BHASHA-14
+  authors:
+  - first_name: Manav
+    last_name: Dhamecha
+    institution: SVNIT, India
+    email: u24ai034@aid.svnit.ac.in
+  - first_name: Gaurav
+    last_name: Damor
+    institution: SVNIT, India
+    email: u24ai063@aid.svnit.ac.in
+  - first_name: Sunil
+    last_name: Jaat
+    institution: SVNIT, India
+    email: u24ai026@aid.svnit.ac.in
+  - first_name: Pruthwik
+    last_name: Mishra
+    institution: SVNIT, India
+    email: pruthwikmishra@aid.svnit.ac.in
+  attributes:
+    paper_type: long
+    presentation_type: poster
+    submitted_area: UNKNOWN
+  file: BHASHA-14.pdf
+  title: 'Team Horizon at BHASHA Task 2: Fine-tuning Multilingual Transformers for
+    Indic Word Grouping'
+  abstract: 'We present Team Horizon’s approach to BHASHA Task 2: Indic Word Grouping.
+    We model the word-grouping problem as token classification problem and fine-tune
+    multilingual Transformer encoders for the task. We evaluated MuRIL, XLM-Roberta,
+    and IndicBERT v2 and report Exact Match accuracy on the test data. Our best model
+    (MuRIL) achieves 58.1818% exact match on the test set.'
+  archival: true

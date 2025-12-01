@@ -1,0 +1,70 @@
+- entries:
+  - first_name: Aditya
+    last_name: Maheshwari
+    institution: Indian Institute of Management Indore, India
+  - first_name: Arnab
+    last_name: Bhattacharya
+    institution: Indian Institute of Technology Kanpur, India
+  - first_name: Chaitali
+    last_name: Dangarikar
+    institution: Indian Institute of Technology Kanpur, India
+  - first_name: Hrishikesh
+    last_name: Terdalkar
+    institution: Birla Institute of Technology and Science Pilani, Hyderabad Campus, India
+  - first_name: Jivnesh
+    last_name: Sandhan
+    institution: Kyoto University, Japan
+  - first_name: Karthika
+    last_name: N J
+    institution: Indian Institute of Technology Bombay, India
+  - first_name: Koustav
+    last_name: Rudra
+    institution: Indian Institute of Technology Kharagpur, India
+  - first_name: Kripabandhu
+    last_name: Ghosh
+    institution: Indian Institute of Science and Research Kolkata, India
+  - first_name: Mahesh
+    middle_name: V S D S
+    last_name: Akavarapu
+    institution: Universität Tübingen, Germany
+  - first_name: Manish
+    last_name: Shrivastava
+    institution: International Institute of Information Technology Hyderabad, India
+  - first_name: Manoj Balaji
+    last_name: Jagadeeshan
+    institution: Indian Institute of Technology Kharagpur, India
+  - first_name: Maunendra
+    middle_name: Sankar
+    last_name: Desarkar
+    institution: Indian Institute of Technology Hyderabad, India
+  - first_name: Mounika
+    last_name: Marreddy
+    institution: International Institute of Information Technology Hyderabad, India
+  - first_name: Pawan
+    last_name: Goyal
+    institution: Indian Institute of Technology Kharagpur, India
+  - first_name: Prajna
+    last_name: Upadhyay
+    institution: Birla Institute of Technology and Science Pilani, Hyderabad Campus, India
+  - first_name: Pramit
+    last_name: Bhattacharyya
+    institution: Indian Institute of Technology Kanpur, India
+  - first_name: Procheta
+    last_name: Sen
+    institution: University of Liverpool, UK
+  - first_name: Rohit
+    last_name: Saluja
+    institution: Indian Institute of Technology Mandi, India
+  - first_name: Shubham
+    middle_name: Kumar
+    last_name: Nigam
+    institution: Indian Institute of Technology Kanpur, India
+  role: Program Committee
+- entries:
+  - first_name: Monojit
+    last_name: Choudhury
+    institution: Mohamed bin Zayed University of Artificial Intelligence, UAE
+  - first_name: Kalika
+    last_name: Bali
+    institution: Microsoft Research, India
+  role: Invited Speakers
