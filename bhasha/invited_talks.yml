@@ -5,4 +5,12 @@
   bio_file: monojit_bio.tex
   date: '2025-12-23 09:30:00'
   location: VMCC, IIT Bombay, India
+  chair: Kripabandhu Ghosh
+- title: 'By the People, For the People: Community‑Based Multilingual and Multicultural Evaluation for Responsible AI'
+  abstract_file: kalika_invited.tex
+  speaker_name: Kalika Bali
+  institution: Microsoft Research, India
+  bio_file: kalika_bio.tex
+  date: '2025-12-23 16:00:00'
+  location: VMCC, IIT Bombay, India
   chair: Saptarshi Ghosh
