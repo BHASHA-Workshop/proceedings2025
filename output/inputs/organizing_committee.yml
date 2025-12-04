@@ -1,0 +1,53 @@
+- members:
+  - first_name: Arnab
+    last_name: Bhattacharya
+    institution: Indian Institute of Technology Kanpur, India
+  role: General Chair
+- members:
+  - first_name: Pawan
+    last_name: Goyal
+    institution: Indian Institute of Technology Kharagpur, India
+  - first_name: Arnab
+    last_name: Bhattacharya
+    institution: Indian Institute of Technology Kanpur, India
+  role: Program Chairs
+- members:
+  - first_name: Pramit
+    last_name: Bhattacharyya
+    institution: Indian Institute of Technology Kanpur, India
+  - first_name: Shubham
+    middle_name: Kumar
+    last_name: Nigam
+    institution: Indian Institute of Technology Kanpur, India
+  role: Publication Chairs
+- members:
+  - first_name: Saptarshi
+    last_name: Ghosh
+    institution: Indian Institute of Technology Kharagpur, India
+  - first_name: Kripabandhu
+    last_name: Ghosh
+    institution: Indian Institute of Science and Research Kolkata, India
+  role: Invited Talk Chairs
+- members:
+  - first_name: Hrishikesh
+    last_name: Terdalkar
+    institution: Birla Institute of Technology and Science Pilani, Hyderabad Campus, India
+  role: Web Chair
+- members:
+  - first_name: Ganesh
+    last_name: Ramakrishnan
+    institution: Indian Institute of Technology Bombay, India
+  role: Local Chair
+- members:
+  - first_name: Karthika
+    last_name: N J
+    institution: Indian Institute of Technology Bombay, India
+  - first_name: Manoj Balaji
+    last_name: Jagadeeshan
+    institution: Indian Institute of Technology Kharagpur, India
+  role: Demonstration Chairs
+- members:
+  - first_name: Subinay
+    last_name: Adhikary
+    institution: Indian Institute of Science and Research Kolkata, India
+  role: Organiser
